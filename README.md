@@ -4,7 +4,7 @@ Url scraper which takes the text input and finds the links/urls, scraps them usi
 ## Installation
 
 ```bash
-npm i npm-text-parser
+npm i url-scraper
 ```
 
 ## Usage
