@@ -24,8 +24,12 @@ exports.scrap = urlScrap;
  * @return {object} Object
  *
  * @usage
- * var textParser = require('url-scraper')
+ * var urlScraper = require('url-scraper')
  * var inputString = 'This is awesome it parses the url's dude and http://krishcdbry.com done !'
+ *
+ * urlScraper.scrap(inputString).then(function (response) {
+ * 			console.log(response);
+ * });
  *
  * //{
  * // original_text: 'This is awesome it scraps the sites dude and http://heartynote.com done !',

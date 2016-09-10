@@ -19,7 +19,11 @@ Receives the input text and finds the links/url, scraps them and returns an obje
 
   var inputString = "This is awesome it parses the url's dude and http://krishcdbry.com done !"
  	
-  urlScraper.scrap(inputString);	
+  urlScraper.scrap(inputString)
+  			.then(function(response) {
+     				console.log(response); // It returns the response object when promise gets resolved satisfies.
+  });	
+  
   //{
   // original_text: 'This is awesome it scraps the sites dude and http://heartynote.com done !',
   // parsed_text: 'This is awesome it scraps the sites dude and <a href="http://heartynote.com" target="_blank">http://heartynote.com</a> done !',
