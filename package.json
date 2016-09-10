@@ -1,0 +1,51 @@
+{
+  "name": "url-scraper",
+  "version": "1.0.0",
+  "description": "Url scraper which takes the text input and finds the links/urls, scraps them using cheerio and will returns an object with original text, parsed text (using npm-text-parser) and array of objects where each object contains scraped webpage's information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishcdbry/url-scraper.git"
+  },
+  "keywords": [
+    "url",
+    "scraper",
+    "urlscrap",
+    "webscraper",
+    "webcrawler",
+    "scrapping",
+    "webcrawling",
+    "bots",
+    "urlscrapping",
+    "scanner",
+    "urlparser",
+    "parse",
+    "url",
+    "web",
+    "scrap",
+    "url-scrapper",
+    "web-bot",
+    "scrapper"
+  ],
+  "author": "KrishCdbry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krishcdbry/url-scraper/issues"
+  },
+  "maintainers": [
+    {
+      "name": "krishcdbry",
+      "email": "krishcdbry@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/krishcdbry/url-scraper#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "cheerio": "^0.22.0",
+    "npm-text-parser": "^1.0.7",
+    "request": "^2.74.0"
+  }
+}
