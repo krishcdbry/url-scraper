@@ -12,13 +12,14 @@ npm i npm-text-parser
 var urlScraper = require('url-scraper');
 ```
 
-## parseUrl(text)
+## scrap(text)
 
 Receives the input text and finds the links/url, scraps them and returns an object with original, parsed and array of scrapped websites info.
 ```javascript
 
   var inputString = "This is awesome it parses the url's dude and http://krishcdbry.com done !"
- 
+ 	
+  urlScraper.scrap(inputString);	
   //{
   // original_text: 'This is awesome it scraps the sites dude and http://heartynote.com done !',
   // parsed_text: 'This is awesome it scraps the sites dude and <a href="http://heartynote.com" target="_blank">http://heartynote.com</a> done !',
