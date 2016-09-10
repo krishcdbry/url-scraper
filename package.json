@@ -1,6 +1,6 @@
 {
   "name": "url-scraper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Url scraper which takes the text input and finds the links/urls, scraps them using cheerio and will returns an object with original text, parsed text (using npm-text-parser) and array of objects where each object contains scraped webpage's information.",
   "main": "index.js",
   "scripts": {
